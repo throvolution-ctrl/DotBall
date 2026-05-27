@@ -1,4 +1,4 @@
-import DotBall from "./DotBall/DotBall";
+import DotBall from "./DotBall";
 
 function App() {
 return <DotBall />;
