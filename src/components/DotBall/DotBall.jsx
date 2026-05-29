@@ -734,6 +734,7 @@ const g = gs.current;
 if (!g.alive || g.paused || !arenaRef.current) return;
 const rect = arenaRef.current.getBoundingClientRect();
 const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+e.preventDefault();
 const rawX = clientX - rect.left;
 g.paddleX = Math.max(g.paddleW / 2, Math.min(g.arenaW - g.paddleW / 2, rawX));
 }, []);
