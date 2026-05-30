@@ -16,7 +16,7 @@ user-select: none;
 }
 
 .db-hud {
-width: min(90vw, 76vh);
+width: min(90vw, 76vh, 520px);
 display: flex;
 align-items: baseline;
 justify-content: space-between;
@@ -78,8 +78,8 @@ transition: color 0.2s ease, text-shadow 0.2s ease;
 /* ── Arena ── */
 .db-arena {
 position: relative;
-width: min(90vw, 76vh);
-height: min(90vw, 76vh);
+width: min(90vw, 76vh, 520px);
+height: min(90vw, 76vh, 520px);
 background: #0b0b0e;
 border: 1px solid rgba(255, 255, 255, 0.06);
 border-radius: 16px;
@@ -466,4 +466,4 @@ line-height: 1.6;
 .db-pause-btn:hover {
 border-color: rgba(255, 255, 255, 0.45);
 color: rgba(255, 255, 255, 0.8);
-}
+}SSSSS
